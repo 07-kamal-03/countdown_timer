@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown timer</title>
+    <link rel="shortcut icon" href="Assests/img/iqoo-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Style/down_timer.css">
+
+</head>
+
+<body>
+    <header>
+        <p>Countdown Timer</p>
+    </header>
+    <div class="manually-set">
+        <input type="datetime-local" name="#" id="inputDate">
+        <input type="button" value="Set" onclick="setTimer()" id="setbutton">
+    </div>
+    <div class="container">
+        <a href="#"><img src="Assests/img/iqoo-logo.png" class="iqoo-logo" alt="iqoo-logo"></a>
+
+        <div class="model">
+            <p>iQOO 11 5G launch soon...</p>
+        </div>
+        <div class="launchtime">
+            <div>
+                <span id="days">00</span>
+                <p class="name">Days</p>
+            </div>
+            <div>
+                <span id="hours">00</span>
+                <p class="name">Hours</p>
+            </div>
+            <div>
+                <span id="minutes">00</span>
+                <p class="name">Minutes</p>
+            </div>
+            <div>
+                <span id="seconds">00</span>
+                <p class="name">Seconds</p>
+            </div>
+        </div>
+        <div class="iqoo-vd">
+            <video autoplay loop muted>
+                <source src="Assests/img/iqoo-11 vd.webm" type="video/webm">
+            </video>
+            <div class="details">
+                <p class="SOC"><span>Snapdragon 8 gen 2</span> + Independent Gaming chip</p>
+                <p class="quote">The Performance King Revitalized</p>
+            </div>
+        </div>
+    </div>
+    <script src="Script/timer.js"></script>
+</body>
+
+</html>

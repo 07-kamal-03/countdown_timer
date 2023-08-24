@@ -1,0 +1,86 @@
+:root{
+    --font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    font-family: var(--font-family);
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-weight: 300;
+    font-size: xx-large;
+}
+.container
+{
+    background-image: linear-gradient(to left top, #fc8104, #c7b300, #8ad45f, #3feab4, #04f8ff);
+    overflow: hidden;
+}
+.iqoo-logo{
+    width: 20%;
+    height: 20%;
+    padding-left: 20px;
+}
+.model{
+    text-align: center;
+}
+.model p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: x-large;
+}
+.launchtime{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.launchtime div {
+    flex-basis: 150px;
+}
+.launchtime div span {
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+.iqoo-vd video{
+    width: 100%;
+    height: 100%;
+}
+.details{
+    text-align: center;
+}
+.SOC{
+    font-family: var(--font-family);
+    font-weight: 1000;
+
+}
+.SOC span{
+    font-family: var(--font-family);
+    font-weight: 1000;
+    color: red;
+}
+.quote{
+    font-family: var(--font-family);
+    color: rgb(68, 0, 255);
+    font-weight: 1000;
+}
+#inputDate{
+    color: rgb(0, 0, 0);
+    background-color: #fc8104;
+    border: 1px solid red;  
+    background-image: linear-gradient(to bottom, #0704fe, #0087ff, #00baff, #00e2ac, #13ff00);
+    
+    
+}
+#setbutton{
+    color: rgb(0, 0, 0);
+    background-color: #fc8104;
+    border: 1px solid red;  
+    background-image: linear-gradient(to bottom, #0704fe, #0087ff, #00baff, #00e2ac, #13ff00);
+    
+    
+}
+.manually-set{
+    display: flex;
+    justify-content: end;
+    padding: 2px 20px;
+}
